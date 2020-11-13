@@ -10,7 +10,6 @@ let stage = new Konva.Stage({
 
 let layer = new Konva.Layer();
 
-// complex dashed and dotted line
 let placeholderLine = new Konva.Line({
   points: [5, 70, 140, 23, 250, 60, 300, 20],
   stroke: 'grey',
