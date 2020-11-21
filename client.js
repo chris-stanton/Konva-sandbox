@@ -16,7 +16,7 @@ let placeholderLine = new Konva.Line({
   strokeWidth: 4,
   lineCap: 'round',
   lineJoin: 'round',
-  draggable: true,
+  draggable: false,
 });
 
 let draggableLine = new Konva.Line({
